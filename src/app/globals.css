@@ -69,6 +69,6 @@
 }
 @layer utilities{
   .hover{
-@apply text-[#ffffff]
+@apply text-[#F39505]
   }
 }
