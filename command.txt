@@ -1,0 +1,2 @@
+npx magicui-cli add bento-grid
+npx shadcn-ui@latest add [component]

@@ -1,0 +1,55 @@
+export interface Tours {
+  id?: number;
+  tourId?: number;
+  countryId?: number;
+  countryName?: string;
+  cityId?: number;
+  cityName?: string;
+  tourName?: string;
+  duration?: string;
+  imagePath?: string;
+  cityTourTypeId?: string;
+  cityTourType?: string;
+  contractId?: number;
+  recommended?: boolean;
+  isPrivate?: boolean;
+  isvisible?: boolean;
+  isvisiblePopularTours?: boolean;
+  isvisibleReccomendedTours?: boolean;
+  isSlot?: boolean;
+  isVendorTour?: boolean;
+  vendorUid?: null;
+  tourdetails?: Tourdetails;
+}
+export interface Tourdetails {
+  id?: number;
+  countryId?: number;
+  countryName?: string;
+  cityId?: number;
+  cityName?: string;
+  tourName?: string;
+  duration?: string;
+  imagePath?: string;
+  cityTourTypeId?: string;
+  cityTourType?: string;
+  tourDescription?: string;
+  tourInclusion?: string;
+  tourShortDescription?: string;
+  importantInformation?: string;
+  itenararyDescription?: string;
+  usefulInformation?: string;
+  childAge?: string;
+  infantAge?: string;
+  infantCount?: number;
+  isSlot?: boolean;
+  onlyChild?: boolean;
+  contractId?: number;
+  startTime?: string;
+  meal?: null;
+  googleMapUrl?: string;
+  tourExclusion?: null;
+  TourId?: number;
+  cutOffhrs?: number;
+  vendorUid?: null;
+  isVendorTour?: boolean;
+}
