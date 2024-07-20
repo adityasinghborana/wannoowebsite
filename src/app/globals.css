@@ -72,3 +72,8 @@
 @apply text-[#F39505]
   }
 }
+@layer utilities{
+  .main{
+@apply bg-[#F39505]
+  }
+}

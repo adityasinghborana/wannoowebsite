@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
-import { Providers } from "./providers";
+
 import { Inter as FontSans } from "next/font/google";
 import "./globals.css";
 import Navmenu from "../components/ui/navmenu"; // Make sure the path is correct
 
 import { cn } from "@/lib/utils";
 import { NextUIProvider } from "@nextui-org/react";
+import Footer from "../components/widgets/footer";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -34,6 +35,7 @@ export default function RootLayout({
           <Navmenu />
         </header>
         <NextUIProvider>{children}</NextUIProvider>
+        <Footer />
       </body>
     </html>
   );

@@ -20,9 +20,9 @@ const createLoader = () => {
 };
 
 const axiosInstance = axios.create({
-  baseURL: "http://68.66.251.170:3000", // Production
-  //  baseURL: 'http://localhost:3000', // LocalHost
-  //baseURL: 'https://v462m979-3000.inc1.devtunnels.ms/', // Dev tunnel
+  //baseURL: "http://68.66.251.170:3000", // Production
+  //baseURL: "http://localhost:3000", // LocalHost
+  baseURL: "https://v462m979-3000.inc1.devtunnels.ms/", // Dev tunnel
 });
 
 axiosInstance.interceptors.request.use(
